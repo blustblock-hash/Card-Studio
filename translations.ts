@@ -1,0 +1,155 @@
+
+export const translations = {
+  EN: {
+    // Dashboard
+    dashboard: 'Dashboard',
+    newCard: 'New Card',
+    library: 'Library',
+    settings: 'Settings',
+    themes: 'Themes',
+    welcome: 'Welcome to Card Studio',
+    subtitle: 'Create professional government and corporate cards in minutes.',
+    recentCards: 'Recent Cards',
+    viewAll: 'View All',
+    noCards: 'No cards found. Create your first one!',
+    
+    // Editor
+    backToDashboard: 'Back to Dashboard',
+    saveDraft: 'Save Draft',
+    export: 'Export',
+    untitledCard: 'Untitled Card',
+    editor: 'Editor',
+    content: 'Content',
+    design: 'Design',
+    preview: 'Preview',
+    livePreview: 'Live Preview',
+    
+    // Design Controls
+    themeLayout: 'Theme & Layout',
+    globalTheme: 'Global Theme',
+    aspectRatio: 'Aspect Ratio',
+    layoutVariant: 'Layout Variant',
+    density: 'Density',
+    accentColor: 'Accent Color',
+    branding: 'Branding',
+    showLogo: 'Show Logo',
+    logoSource: 'Logo Source',
+    logoSize: 'Logo Size',
+    position: 'Position',
+    topHeader: 'Top Header',
+    backgroundColor: 'Background Color',
+    textColor: 'Text Color',
+    headerStyle: 'Header Style',
+    localization: 'Localization',
+    language: 'Language',
+    footer: 'Footer',
+    leftText: 'Left Text',
+    centerText: 'Center Text',
+    rightText: 'Right Text',
+    pageStamp: 'Page Stamp',
+    
+    // Settings
+    globalConfig: 'Global configuration for your Card Studio.',
+    brandIdentity: 'Brand Identity',
+    defaultLogo: 'Default Brand Logo',
+    defaultAccent: 'Default Accent Color',
+    exportDefaults: 'Export Defaults',
+    pngScale: 'PNG Export Scale',
+    pdfSize: 'Default PDF Size',
+    defaultLanguage: 'Default Language',
+    autoRTL: 'Automatic RTL',
+    resetData: 'Reset All Data',
+    clearAll: 'Clear All',
+    saveChanges: 'Save Changes',
+    
+    // Themes
+    themesTokens: 'Themes & Tokens',
+    exploreTokens: 'Explore premium design tokens and layout variants.',
+    activeTheme: 'Active Theme',
+    setAsDefault: 'Set as Default',
+    
+    // Card Types
+    'briefing-note': 'Briefing Note',
+    'fact-sheet': 'Fact Sheet',
+    'executive-summary': 'Executive Summary',
+    'policy-brief': 'Policy Brief',
+    'meeting-minutes': 'Meeting Minutes',
+  },
+  AR: {
+    // Dashboard
+    dashboard: 'لوحة التحكم',
+    newCard: 'بطاقة جديدة',
+    library: 'المكتبة',
+    settings: 'الإعدادات',
+    themes: 'القوالب',
+    welcome: 'مرحباً بك في استوديو البطاقات',
+    subtitle: 'أنشئ بطاقات حكومية ومؤسسية احترافية في دقائق.',
+    recentCards: 'البطاقات الأخيرة',
+    viewAll: 'عرض الكل',
+    noCards: 'لم يتم العثور على بطاقات. أنشئ بطاقتك الأولى!',
+    
+    // Editor
+    backToDashboard: 'العودة للوحة التحكم',
+    saveDraft: 'حفظ المسودة',
+    export: 'تصدير',
+    untitledCard: 'بطاقة بدون عنوان',
+    editor: 'المحرر',
+    content: 'المحتوى',
+    design: 'التصميم',
+    preview: 'معاينة',
+    livePreview: 'معاينة مباشرة',
+    
+    // Design Controls
+    themeLayout: 'القالب والتخطيط',
+    globalTheme: 'القالب العام',
+    aspectRatio: 'نسبة العرض إلى الارتفاع',
+    layoutVariant: 'نوع التخطيط',
+    density: 'الكثافة',
+    accentColor: 'لون التمييز',
+    branding: 'الهوية البصرية',
+    showLogo: 'إظهار الشعار',
+    logoSource: 'مصدر الشعار',
+    logoSize: 'حجم الشعار',
+    position: 'الموقع',
+    topHeader: 'الترويسة العلوية',
+    backgroundColor: 'لون الخلفية',
+    textColor: 'لون النص',
+    headerStyle: 'نمط الترويسة',
+    localization: 'التوطين',
+    language: 'اللغة',
+    footer: 'التذييل',
+    leftText: 'النص الأيسر',
+    centerText: 'النص الأوسط',
+    rightText: 'النص الأيمن',
+    pageStamp: 'ختم الصفحة',
+    
+    // Settings
+    globalConfig: 'التكوين العام لاستوديو البطاقات الخاص بك.',
+    brandIdentity: 'هوية العلامة التجارية',
+    defaultLogo: 'شعار العلامة التجارية الافتراضي',
+    defaultAccent: 'لون التمييز الافتراضي',
+    exportDefaults: 'افتراضيات التصدير',
+    pngScale: 'مقياس تصدير PNG',
+    pdfSize: 'حجم PDF الافتراضي',
+    defaultLanguage: 'اللغة الافتراضية',
+    autoRTL: 'RTL تلقائي',
+    resetData: 'إعادة تعيين كافة البيانات',
+    clearAll: 'مسح الكل',
+    saveChanges: 'حفظ التغييرات',
+    
+    // Themes
+    themesTokens: 'القوالب والرموز',
+    exploreTokens: 'استكشف رموز التصميم المميزة وأنواع التخطيط.',
+    activeTheme: 'القالب النشط',
+    setAsDefault: 'تعيين كافتراضي',
+    
+    // Card Types
+    'briefing-note': 'مذكرة إيجاز',
+    'fact-sheet': 'ورقة حقائق',
+    'executive-summary': 'ملخص تنفيذي',
+    'policy-brief': 'موجز سياسات',
+    'meeting-minutes': 'محضر اجتماع',
+  }
+};
+
+export type TranslationKey = keyof typeof translations.EN;
